@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "author": "chenshen2000 <2975650439@qq.com>",
+  "scripts": {
+    "build": "max build",
+    "dev": "max dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "prepare": "husky install",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/pro-components": "^2.0.1",
+    "@types/js-md5": "^0.7.0",
+    "@types/zxcvbn": "^4.4.1",
+    "@umijs/max": "^4.0.57",
+    "antd": "^5.0.0",
+    "js-md5": "^0.7.3",
+    "webpack-open-browser-plugin": "^1.0.7",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^2",
+    "prettier-plugin-packagejson": "^2",
+    "tailwindcss": "^3",
+    "typescript": "^4.1.2"
+  }
+}
